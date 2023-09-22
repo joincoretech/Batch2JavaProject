@@ -26,5 +26,6 @@ public class ArrayListDemo3 {
 
         System.out.println(cities.stream().filter(city ->  city.contains("n")).count());
         //cities.stream().
+        System.out.println(cities);
     }
 }
